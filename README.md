@@ -11,7 +11,8 @@
 Sliding puzzle game with AI solver.
 Click on a tile to slide it.
 The solver uses A*  search algorithm.
-[Play](https://odimos.github.io/sliding-puzzle-solver/)
+
+[Play the Sliding Puzzle](https://odimos.github.io/sliding-puzzle-solver/)
 
 ## A* Search
 Evaluation function: f(n) = g(n) + h(n)
