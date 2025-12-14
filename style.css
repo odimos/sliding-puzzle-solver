@@ -4,18 +4,16 @@ body{
 
 .wrapper{
     margin-top: 20px;
+    margin-left: 10px;
     display: inline-block;
     text-align: start;
-    
 }
 
 .grid{
     display: flex;
     flex-wrap: wrap;
-    min-width: 300px;
-    row-gap: 20px;
-    column-gap: 20px; 
-
+justify-content: center; /* horizontal centering */
+ gap: 10px; 
 }
 
 #container{
@@ -30,8 +28,23 @@ body{
     display: inline-block;
 }
 
+.models{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
 
-#model{
+/* when wrapping will occur */
+@media (max-width: 700px){
+    .models{
+        flex-direction: row;
+    }
+}
+
+
+.model{
     display: block;
     width: 100px;
     height:100px;

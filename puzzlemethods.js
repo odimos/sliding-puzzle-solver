@@ -4,7 +4,7 @@ function copyPuzzle(puzzle){
     newpuzzle.grid = copyGrid(puzzle.grid);
     newpuzzle.zero = {x:puzzle.zero.x, y:puzzle.zero.y};
     newpuzzle.code = getpuzzlecode(newpuzzle);
-    newpuzzle.eval = evaluate(newpuzzle);
+    //newpuzzle.eval = evaluate(newpuzzle);
     newpuzzle.path = puzzle.path;
     newpuzzle.gen = puzzle.gen;
 
@@ -37,8 +37,11 @@ function move(puzzle,moveY, moveX){
     newpuzzle.zero.x += moveX;
     newpuzzle.zero.y += moveY;
     newpuzzle.code = getpuzzlecode(newpuzzle);
+
     newpuzzle.path = puzzle.path + addToPath(moveY, moveX);
     newpuzzle.gen = newpuzzle.gen+1;
+    newpuzzle.eval = evaluate(newpuzzle);
+
     return newpuzzle;
 }
 

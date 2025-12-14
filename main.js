@@ -2,7 +2,18 @@ const SIZE=3
 
 window.onload = ()=>{
 
+    
+
+    setup(document);
+
+}
+
+
+function setup(document){
     let puzzle = randomPuzzle(400)
+
+    //choseImage(puzzle);
+
     printGrid(puzzle.grid)
     renderPuzzle(puzzle)
 
@@ -18,7 +29,6 @@ window.onload = ()=>{
             grid: grid,
             path:'',
             gen:0
-
         }
         puzzle.zero = findZero(puzzle.grid);
         puzzle.code = getpuzzlecode(puzzle);
@@ -27,7 +37,6 @@ window.onload = ()=>{
         const sol = solve(puzzle)
         if(sol.path!='')renderSolution(orgnl,sol.path)
     });
-
 }
 
 function fromDomToGrid(){
@@ -43,3 +52,23 @@ function fromDomToGrid(){
     };
     return grid;
 }
+
+
+// function choseImage(puzzle){
+//    document.querySelectorAll('.model').forEach((img)=>{
+//         img.addEventListener('click',()=>{
+//             const src = img.getAttribute('src');
+//             console.log(src)
+//             puzzle = randomPuzzle(400)
+//             printGrid(puzzle.grid)
+//             renderPuzzle(puzzle)
+//             document.querySelectorAll('.piece').forEach((square)=>{
+//                 square.style.backgroundImage = `url('${src}')`;
+//             });
+            
+        
+                
+//         });
+//     });
+
+// }
