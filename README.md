@@ -1,7 +1,11 @@
-
-<img src="img/pica.png" width="120">
-<img src="img/squirtle.png" width="120">
-<img src="img/Jigglypuff.png" width="120">
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="img/pica.png" width="120">
+  <img src="img/squirtle.png" width="120">
+  <img src="img/bulbasaur.png" width="120">
+  <img src="img/Jigglypuff.png" width="120">
+  <img src="img/Furret.webp" width="120">
+  <img src="img/togepi.webp" width="120">
+</div>
 
 # Sliding Puzzle 
 Sliding puzzle game with AI solver.
