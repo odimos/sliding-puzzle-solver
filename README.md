@@ -1,3 +1,10 @@
+![Picatchu](img/pica.png)
+![Squirtle](img/squirtle.png)
+![Bulbasaur](img/bulbasaur.png)
+![Jigglypuff](img/Jigglypuff.png)
+![Furret](img/Furret.webp)
+![Togepi](img/togepi.webp)
+
 # Sliding Puzzle 
 Sliding puzzle game with AI solver.
 Click on a tile to slide it.
