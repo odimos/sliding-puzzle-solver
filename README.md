@@ -1,9 +1,7 @@
-![Picatchu](img/pica.png)
-![Squirtle](img/squirtle.png)
-![Bulbasaur](img/bulbasaur.png)
-![Jigglypuff](img/Jigglypuff.png)
-![Furret](img/Furret.webp)
-![Togepi](img/togepi.webp)
+
+<img src="img/pica.png" width="120">
+<img src="img/squirtle.png" width="120">
+<img src="img/Jigglypuff.png" width="120">
 
 # Sliding Puzzle 
 Sliding puzzle game with AI solver.
