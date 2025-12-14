@@ -7,7 +7,7 @@
   <img src="img/togepi.webp" width="120">
 </div>
 
-# Sliding Puzzle 
+# Sliding Puzzle 🧩
 Sliding puzzle game with AI solver.
 Click on a tile to slide it.
 The solver uses A*  search algorithm.
